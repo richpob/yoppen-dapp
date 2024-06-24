@@ -26,4 +26,10 @@ module.exports = {
    plugins: [
     'truffle-plugin-verify'
   ], 
+    // Configura las opciones del plugin
+    api_keys: {
+        //etherscan: process.env.ETHERSCAN_API_KEY // Accede a la API key desde la variable de entorno 
+        etherscan: 'W3UVH9T3M5KRBKGKQTUMN6EDBBP298MQGY'
+      }
+    
 };
